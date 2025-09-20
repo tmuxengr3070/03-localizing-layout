@@ -41,10 +41,47 @@
   
   <div class="container my-5">
     <div class="row mb-4">
-      <div class="col-12 bg-light p-5 rounded">
-        <h1 class="text-left">Welcome to Global Technology Summit</h1>
-        <p class="text-left">Join top innovators, industry leaders, and experts shaping the future of technology.</p>
-        <button class="btn btn-primary">Get Your Ticket</button>
+      <div class="col-12">
+        <!-- Bootstrap Carousel Start -->
+        <div id="summitCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#summitCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#summitCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#summitCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#summitCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner rounded bg-light">
+            <div class="carousel-item active p-5">
+              <h1 class="mb-3">Welcome to Global Technology Summit</h1>
+              <p>Join top innovators, industry leaders, and experts shaping the future of technology.</p>
+              <button class="btn btn-primary">Get Your Ticket</button>
+            </div>
+            <div class="carousel-item p-5">
+              <h1 class="mb-3">Explore AI & Automation</h1>
+              <p>Discover how artificial intelligence is transforming industries and creative applications.</p>
+              <button class="btn btn-secondary">Learn More</button>
+            </div>
+            <div class="carousel-item p-5">
+              <h1 class="mb-3">Connect Globally</h1>
+              <p>Network with leaders, founders, and innovators from around the world.</p>
+              <button class="btn btn-success">Join Networking</button>
+            </div>
+            <div class="carousel-item p-5">
+              <h1 class="mb-3">Pitch Your Startup</h1>
+              <p>Compete for funding and mentorship in front of top industry investors.</p>
+              <button class="btn btn-warning">Pitch Now</button>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#summitCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#summitCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Bootstrap Carousel End -->
       </div>
     </div>
 
